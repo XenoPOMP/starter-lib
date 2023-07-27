@@ -2,7 +2,6 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.6.6",
   "description": "",
   "author": "Riri <Daydreamerriri@outlook.com>",
   "license": "MIT",
@@ -56,9 +55,6 @@
     "simple-git-hooks": "^2.8.1",
     "typescript": "5.1.6",
     "unbuild": "^1.2.1"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
